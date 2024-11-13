@@ -4,14 +4,17 @@
 
 # 特点
 
-可内网部署、私有化部署，节省运营费用。
+基于自建WebRTC服务，Server端内置TURN（也可接入其他自定义TURN），服务可内网部署、私有化部署，节省运营费用。（不需要第三方服务支持，不需要腾讯云、声网等云服务器，只需要一台服务器！！）
 
 # 技术栈
 
-Server：Go
-Client：Kotlin、Swift、Typescript
-Backet：PHP
- 
+- Server：Go
+- Client：Kotlin、Swift、Typescript
+- Backet：PHP
+
+# 稳定性
+
+当前项目已对接多个公司内部使用，单机8H16G千兆服务器可支撑单人会议万人观众场景（具体情况具体分析）。
 
 # 购买地址
 
